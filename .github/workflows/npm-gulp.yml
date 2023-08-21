@@ -24,4 +24,4 @@ jobs:
 
     - name: Build
       run: |
-        ng build
+        npm install -g @angular/cli@9.0.0-rc.7
