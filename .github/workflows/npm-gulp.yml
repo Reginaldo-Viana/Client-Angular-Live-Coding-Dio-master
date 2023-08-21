@@ -25,3 +25,4 @@ jobs:
     - name: Build
       run: |
         npm install -g @angular/cli@9.0.0-rc.7
+        ng serve
