@@ -24,4 +24,4 @@ jobs:
       - name: Install dependencies
         run: npm install -g @angular/cli@9.0.0-rc.7
       - name: Build Angular application
-        run: ng serve
+        run: ng build
